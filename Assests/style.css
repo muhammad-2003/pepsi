@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Black'), local('Sofia-Pro-Black'),
+        url('SofiaProBlack.woff2') format('woff2'),
+        url('SofiaProBlack.woff') format('woff'),
+        url('SofiaProBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }

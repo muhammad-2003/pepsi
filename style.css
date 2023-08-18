@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* <-------STYLING FOR HEADER AND NAVBAR-------> */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0065c3;
+    height: 90px;
+    font-size: 14px;
+    position: static;
+    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-right: 70px;
+    margin-left: 60px;
+    cursor: pointer;
+    /* margin-top: 10px; */
+}
+.logo:hover img{
+    transition: transform 0.5s ;
+    transform: rotate(360deg);
+}
+.logo img{
+    width:60px;
+}
+.nav-item{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-item li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.buyPepsi{
+    margin-right: 40px;
+    border: 2px solid white;
+    padding: 7px 15px;
+    border-radius: 18px;
+    
+}
+.buyPepsi a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+.buyPepsi:hover {
+    background-color: white;
+    color: #0065c3;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+a:hover {
+    
+    color: #0065c3;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+
+
+.humburger{
+ text-align: center;
+ margin-right: 20px;
+ display: none;
+}
+.line{
+    width: 35px;
+    height: 3px;
+    margin: 6px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/* <-------STYLING FOR MAIN AND FIRST-------> */
+
+.unlock{
+    background-image: url(./Assests/a0ddd5f7-69e9-4650-93b6-1e5dde5fc62d.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    
+    align-items: center;
+}
+.unlock .image img{
+    width: 800px;
+    margin-top: 170px;
+}
+.textright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.get{
+    margin-top: 29px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.textright a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    width: 120px;
+    text-align: center;
+    
+    
+}
+.get:hover a {
+    
+    background-color: white;
+    color: #0065c3;
+}
+.textright p{
+    width: 400px;
+    font-size: 12px;
+    color: white;
+    margin:30px 20px ;
+    text-align: justify;
+}
+
+/* <-------STYLING FOR MAIN AND SECOND-------> */
+
+
+.zero{
+   background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+.image2{
+    width: 40%;
+    height: 100vh;
+    margin: 10px;
+    
+    
+}
+.image2 #can{
+width: 900px;
+}
+.image2 #taste{
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    
+}
+.text2{
+    margin: 10px;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+.text2 #newtaste{
+    width: 410px;
+    margin-top: 70px;
+}
+.text2 #believe{
+    top: 200px;
+    width: 320px;
+    margin-right: 100px;
+}
+.video{
+    display: flex;
+     gap: 50px;
+    align-items: center;
+    margin-top: 23px;
+}
+
+
+.nitro{
+    background-image: url(./Assests/89ecf784-52bc-4918-8d6a-303a071d7d4d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glassImage{
+    width: 40%;
+    background-image: url(./assets/images/nitro/Nitro_Pepsi_CAN_Glass@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    
+
+}
+.nitrotext{
+    width: 40%;
+    
+    
+
+}
+.nitrotext h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 48px;
+    /* padding:20px; */
+}
+.nitrotext img {
+  width: 370px;
+  height: 260px;
+}
+.burger{
+    background-color: #0471d6;
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.twoImage{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first1{
+    margin-bottom: 20px;
+    background-color: #2351ad;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.second2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #2351ad;
+}
+.bigImage{
+    width: 65%;
+    background-image: url(./Assests/burger.jpg)
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.bigImage img {
+    width: 425px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.mango{
+    background-image: url(./Assests/water\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    overflow-x: hidden;
+}
+.bg1{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.bg1 img{
+    width: 890px;
+    
+}
+.bg2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg2 img{
+    width: 1500px;
+    height: 500px;
+}
+.headline{
+    position: absolute;
+    bottom: 42px;
+    left: 30px;
+}
+.headline img{
+    width: 500px;
+}
+.textmango{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.textmango img{
+    width: 400px;
+}
+
+.water{
+    background-image: url(./Assests/water\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.watleft{
+    display: block;
+    justify-self: right;
+    align-items: end;
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+.watleft img{
+    width: 660px;
+}
+.watright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.watright img{
+    width: 500px;
+}
